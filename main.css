@@ -1,3 +1,39 @@
 body{
-    background-color: burlywood;
+    background-color: rgb(226, 220, 214);
+    display: flex;
+}
+
+h1 header {
+    text-align: center;
+}
+
+.product header {
+    border: solid lightblue 1px;
+    text-align: center;
+}
+.product img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product {
+    box-shadow: 5px 10px slategray;
+    margin: 25px;
+    padding: 5px;
+    border: dashed linen 4px;
+
+}
+.specification h3 {
+    font-weight: bold;
+}
+.specification p{
+    font-weight: bold;
+}
+.pricing {
+    font-weight: bold;
+}
+#avaliable{
+    background-color: darkgrey;
+    color: yellow;
+
 }
