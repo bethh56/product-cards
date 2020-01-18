@@ -1,6 +1,6 @@
 body{
-    background-color: azure;
-    
+    font-family: 'Ibarra Real Nova', serif;
+    background-color: azure;   
 }
 
 header h1{
@@ -15,7 +15,8 @@ header h1{
 
 .product header {
     border: solid lightblue 1px;
-    text-align: center;
+    text-align: center ;
+    
 }
 .product img {
     display: block;
@@ -25,8 +26,9 @@ header h1{
 .product {
     box-shadow: 5px 10px slategray;
     margin: auto;
+    margin-top: 25px;
     border: dashed lightgray 4px;
-    height: 50%;
+    width: 250px; 
 }
 .specification h3 {
     font-weight: bold;
@@ -48,14 +50,14 @@ header h1{
 }
 
 .product img{
-    display: flex;
     text-align: justify;
     width: 100%;
     height: 100%;
-    
+     
 }
+
 main{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: auto;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
 }
