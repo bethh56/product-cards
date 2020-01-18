@@ -1,6 +1,8 @@
 body{
-    background-color: rgb(226, 220, 214);
+    background-color: azure;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 h1 header {
@@ -20,8 +22,8 @@ h1 header {
     box-shadow: 5px 10px slategray;
     margin: 25px;
     padding: 5px;
-    border: dashed linen 4px;
-
+    border: dashed lightgray 4px;
+    width: 25%;
 }
 .specification h3 {
     font-weight: bold;
@@ -36,4 +38,15 @@ h1 header {
     background-color: darkgrey;
     color: yellow;
 
+}
+
+.productType h3 {
+    text-align: justify;
+    flex-wrap: wrap;
+}
+
+.product img{
+    display: flex;
+    text-align: justify;
+    
 }
