@@ -5,7 +5,7 @@
 - If item is sold out, "SOLD OUT" sticker will be placed over image to inform user that item is not avaliavle.  
 
 ## Screen Shot
-![View of Yarn Store]("")
+![View of Yarn Store](https://raw.githubusercontent.com/bethh56/product-cards/master/screenshot/Screenshot%20(11).png)
 
 ## How to Run
 1. Clone down this repo
